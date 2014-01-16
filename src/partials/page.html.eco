@@ -1,0 +1,9 @@
+<main class="page page<%= @document.num %>">
+	<img src="images/<%= @document.num %>.jpg" />
+	
+	<% for text, i in @document.texts: %>
+	<p class="text text<%= i %>">
+		<%- text %>
+	</p>
+	<% end %>
+</main>

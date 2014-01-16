@@ -1,0 +1,7 @@
+---
+num: 6
+title: "page 6"
+layout: "default"
+texts: ['When I saw Bobby, he said, "You look like a spotted hyena."']
+---
+<%- @partial("page.html.eco") %>

@@ -1,0 +1,7 @@
+---
+num: 3
+title: "page 3"
+layout: "default"
+texts: ['"You need it to keep out the mosquitoes that make the children around here sick," she said. "You and your little brother Bobby have to sleep under it to be safe."']
+---
+<%- @partial("page.html.eco") %>

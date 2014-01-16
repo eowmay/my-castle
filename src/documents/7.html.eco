@@ -1,0 +1,7 @@
+---
+num: 7
+title: "page 7"
+layout: "default"
+texts: ['"Well <em>you</em> look like an ugly warthog!" I said, and left.']
+---
+<%- @partial("page.html.eco") %>

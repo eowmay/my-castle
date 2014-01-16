@@ -1,0 +1,7 @@
+---
+num: 10
+title: "page 10"
+layout: "default"
+texts: [ '"Right here!" She said. "You\'re crazy," I said. "That\'s not a castle, that\'s a hot, sticky bednet."', '"Wait until you come inside," said Lily.' ]
+---
+<%- @partial("page.html.eco") %>

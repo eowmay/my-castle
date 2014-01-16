@@ -1,0 +1,7 @@
+---
+num: 8
+title: "page 8"
+layout: "default"
+texts: ["I went to go see my friend Lily. I knew <em>she</em> wouldn't laugh at me."]
+---
+<%- @partial("page.html.eco") %>

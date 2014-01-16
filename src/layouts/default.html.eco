@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title><%- @site.title %> - <%- @document.title %></title>
+		<%- @getBlock("meta").toHTML() %>
+		<%- @getBlock("styles").add(["/styles/index.css"]).toHTML() %>
+	</head>
+	<body>
+		<%- @partial('nav.html.eco') %>
+		<%- @content %>
+		<%- @getBlock("scripts").toHTML() %>
+	</body>
+</html>

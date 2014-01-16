@@ -1,0 +1,7 @@
+---
+num: 5
+title: "page 5"
+layout: "default"
+texts: ["In the morning I had mosquito bites all over my arms and legs."]
+---
+<%- @partial("page.html.eco") %>

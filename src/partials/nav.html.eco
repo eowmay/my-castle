@@ -1,0 +1,10 @@
+<nav>
+	<% if @document.num == 1: %> 
+	<a class="icon back" href="index.html"></a>
+	<% else if @document.num >1: %>
+	<a class="icon back" href="<%= @document.num - 1 %>.html"></a>
+	<% end %>
+	<% if @document.num < @site.total: %>
+	<a class="icon forward" href="<%= @document.num + 1 %>.html"></a>
+	<% end %>
+</nav>

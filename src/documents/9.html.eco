@@ -1,0 +1,7 @@
+---
+num: 9
+title: "page 9"
+layout: "default"
+texts: [ 'But the day got worse: She had a new bednet, too. Lily poked her head out of the net when I came close. She had a huge smile on her face. "I have a new castle!" she told me.', '"Oh really?" I said. Lily is a little crazy sometimes. "Where is it?"' ]
+---
+<%- @partial("page.html.eco") %>

@@ -1,0 +1,11 @@
+---
+num: 17
+title: "page 17"
+layout: "default"
+---
+<main class="page page1">
+	<img src="images/18.jpg" />
+	<p class="text text1">
+		And from then on we slept in our castle every night.
+	</p>
+</main>

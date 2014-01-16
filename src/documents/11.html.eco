@@ -1,0 +1,19 @@
+---
+num: 11
+title: "page 11"
+layout: "default"
+---
+<nav>
+	<a class="icon back" href="10.html"></a> <a class="icon forward" href="12.html"></a>
+</nav>
+<main class="page page1">
+	<img src="images/11.jpg" />
+	<p class="text text1">
+		"Ok," I said, "I'll come inside."
+		Lily pushed me back. "You have to put on a crown first! Only royalty is allowed."
+		"Ok," I said.
+	</p>
+	<p class="text text0">
+		Lily handed me a paper crown and I put it on. Then we went inside.
+	</p>
+</main>

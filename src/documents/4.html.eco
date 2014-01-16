@@ -1,0 +1,7 @@
+---
+num: 4
+title: "page 4"
+layout: "default"
+texts: ["But the bednet was hot and sticky. I slept outside." ]
+---
+<%- @partial("page.html.eco") %>

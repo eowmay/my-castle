@@ -1,0 +1,7 @@
+---
+num: 1
+title: "page 1"
+layout: "default"
+texts: ["When my mom first came home with a bednet, I didn't like it at all."]
+---
+<%- @partial("page.html.eco") %>
