@@ -2,6 +2,6 @@
 num: 2
 title: "page 2"
 layout: "default"
-texts: ['What do we need all this netting for?" I asked her. "We\'re not fish!"']
+texts: ["\"What do we need all this netting for?\" I asked her. \"We're not fish!\""]
 ---
 <%- @partial("page.html.eco") %>
