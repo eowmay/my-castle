@@ -2,10 +2,6 @@
 num: 12
 title: "page 12"
 layout: "default"
+texts: ["We played all day in Lily's castle, until it was time to go to sleep."]
 ---
-<main class="page page1">
-	<img src="images/12.jpg" />
-	<p class="text text0">
-		We played all day in Lily's castle, until it was time to go to sleep.
-	</p>
-</main>
+<%- @partial("page.html.eco") %>

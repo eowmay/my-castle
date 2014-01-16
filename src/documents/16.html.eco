@@ -2,10 +2,6 @@
 num: 16
 title: "page 16"
 layout: "default"
+texts: ["\"Wait until you come inside!\" I said."]
 ---
-<main class="page page1">
-	<img src="images/16.jpg" />
-	<p class="text text0">
-		"Wait until you come inside!" I said.
-	</p>
-</main>
+<%- @partial("page.html.eco") %>

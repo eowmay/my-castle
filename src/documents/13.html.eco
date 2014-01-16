@@ -2,14 +2,6 @@
 num: 13
 title: "page 13"
 layout: "default"
+texts: ["When I got home, my little brother was complaining that he didn't want to sleep in the bednet.", "\"My big brother doesn't sleep in it!\" he said. \"And it's hot! And sticky!\" My mom looked angrily at me."]
 ---
-<main class="page page1">
-	<img src="images/13.jpg" />
-	<p class="text tex1">
-		When I got home, my little brother was complaining that he didn't want to sleep in the bednet.
-	</p>
-	<p class="text text0">
-		"My big brother doesn't sleep in it!" he said. "And it's hot! And sticky!"
-		My mom looked angrily at me.
-	</p>
-</main>
+<%- @partial("page.html.eco") %>

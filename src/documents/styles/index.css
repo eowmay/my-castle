@@ -150,7 +150,13 @@ html, body {
 .page6 .text0,
 .page7 .text0,
 .page9 .text1, 
-.page10 .text1 {
+.page10 .text1,
+.page11 .text1,
+.page12 .text0,
+.page13 .text1,
+.page14 .text0,
+.page15 .text1,
+.page16 .text0{
   left: 1rem;
   right: 1rem;
   bottom: 0.17rem;
@@ -160,10 +166,19 @@ html, body {
 .page1 .text1,
 .page8 .text0,
 .page9 .text0,
-.page10 .text0 {
+.page10 .text0,
+.page11 .text0,
+.page13 .text0,
+.page15 .text0 {
   left: 1rem;
   right: 1rem;
   top: 1.5rem;
+}
+
+.page17 .text0 {
+  top: 1.5rem;
+  left: 5rem;
+  right: 5rem;
 }
 main {
   text-align:left;

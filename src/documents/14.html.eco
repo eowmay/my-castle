@@ -2,11 +2,6 @@
 num: 14
 title: "page 14"
 layout: "default"
+texts: ["\"Of course I sleep in it! It's my castle,\" I told Bobby. \"You're crazy,\" he told me."]
 ---
-<main class="page page1">
-	<img src="images/14.jpg" />
-	<p class="text text0">
-		"Of course I sleep in it! It's my castle," I told Bobby.
-		"You're crazy," he told me.
-	</p>
-</main>
+<%- @partial("page.html.eco") %>

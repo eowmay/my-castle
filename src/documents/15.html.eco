@@ -2,13 +2,6 @@
 num: 15
 title: "page 15"
 layout: "default"
+texts: ["I still had the crown Lily had given me, and another I had made at her house. ", "I put Lily's gift on my head, and I put the one I had made on Bobby."]
 ---
-<main class="page page1">
-	<img src="images/15.jpg" />
-	<p class="text text1">
-		I still had the crown Lily had given me, and another I had made at her house. 
-	</p>
-	<p class="text text0">
-		I put Lily's gift on my head, and I put the one I had made on Bobby.
-	</p>
-</main>
+<%- @partial("page.html.eco") %>
