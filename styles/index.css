@@ -1,0 +1,185 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* icon */
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello.eot');
+  src: url('../fonts/fontello.eot') format('embedded-opentype'),
+       url('../fonts/fontello.woff') format('woff'),
+       url('../fonts/fontello.ttf') format('truetype'),
+       url('../fonts/fontello.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.icon {
+  /* positioning */
+  position: absolute;
+  display: inline-block;
+  width: 1em;
+  text-align: center;
+  padding: 0.3rem;
+  opacity: 0.7;
+  z-index: 100;
+  
+  /* font */
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  color: black;
+  speak: none;
+  font-size: 2.4rem;
+  text-decoration: inherit;
+}
+.icon:hover {
+  background: black;
+  color: white;
+  border-radius: 2rem;
+}
+
+.back {
+  left: 0;
+}
+.back:before {
+  content: '\e800'; /* '' */
+}
+.forward {
+  right: 0;
+}
+.forward:before {
+  content: '\e801'; /* '' */
+}
+/* /icon */
+
+.page {
+}
+.page img {
+  z-index: -999;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.page .text {
+  /* font */
+  font-size: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* page */
+@media (min-width: 500px) {
+  body {
+    position: fixed;
+  }
+  .page img {
+    min-height: 100%;
+    height: auto;
+    position: fixed;
+  }
+  .page .text {
+    /* background */
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 1rem;
+  
+    /* positioning */
+    position: absolute;
+    display: inline;
+  }
+}
+
+@media (max-width: 500px) {
+  .page {
+    position: relative;
+  }
+  .page img {
+    position: relative;
+  }
+  .page .text {
+    /* positioning */
+    position: relative;
+    display: block;
+  }
+}
+/* /page */
+
+/* page0 */
+.page0 header {
+  text-align: center;
+  height: 100%;
+}
+.page0 .htext {
+  /* background */
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 1rem;
+  
+  /* positioning */
+  position: relative;
+  display: inline-block;
+}
+.page0 h1.htext {
+  margin-top: 0;
+  font-size: 5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.page0 h2.htext {
+  font-size: 3rem;
+  margin: 0;
+}
+.page0 h3.htext {
+  position: absolute;
+  bottom: 0.17rem;
+  font-size: 3rem;
+  -webkit-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  transform: translate(-50%);
+}
+/* /page0 */
+
+/* page1 */
+.page1 .text0,
+.page2 .text0,
+.page3 .text0,
+.page4 .text0,
+.page5 .text0,
+.page6 .text0,
+.page7 .text0,
+.page9 .text1, 
+.page10 .text1,
+.page11 .text1,
+.page12 .text0,
+.page13 .text1,
+.page14 .text0,
+.page15 .text1,
+.page16 .text0{
+  left: 1rem;
+  right: 1rem;
+  bottom: 0.17rem;
+}
+/* /page1 */
+
+.page1 .text1,
+.page8 .text0,
+.page9 .text0,
+.page10 .text0,
+.page11 .text0,
+.page13 .text0,
+.page15 .text0 {
+  left: 1rem;
+  right: 1rem;
+  top: 1.5rem;
+}
+
+.page17 .text0 {
+  top: 1.5rem;
+  left: 5rem;
+  right: 5rem;
+}
+main {
+  text-align:left;
+}
